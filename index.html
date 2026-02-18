@@ -14,16 +14,16 @@
   .imagens-batman{
     height: 200px;
     size: 400px;
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
   }
 
-  h1, h2{
+  h1, h2, h3{
     text-align: center;
     color: rgb(255, 255, 255);
   }
-
-  h1{}
 
   body{
     background-color: black;
@@ -35,6 +35,15 @@
 p{
     color: rgb(255, 255, 255);
 }
+
+.ultimas-noticias{
+    border: 1px solid white
+}
+
+.descricao-batman{
+    text-align: center;
+}
+
 </style>
 
 <body>
@@ -46,20 +55,81 @@ p{
 <main>
     <div>
     <h2>O herói mais forte</h2>
-    <p>O batman é o justiceiro da cidade.</p>
+
+<hr>
+
+<div class="descricao-batman">
+
+    <p>O batman é o justiceiro da cidade. Um dos melhores e mais preparados heróis que existem</p>
+
+</div>
+
+    </div>
+
+    <div class="imagens-batman">
+
+        <img src="assets/batman2.jpg" alt="imagem do batman" id="">
+
+        <img src="assets/batman3.jpg" alt="imagem do batman" id="">
+
+        <img src="assets/batman4.jpg" alt="imagem do batman" id="">
     </div>
 
     <div>
 
-        <img class="imagens-batman" src="assets/batman2.jpg" alt="imagem do batman" id="">
-
-        <img class="imagens-batman" src="assets/batman3.jpg" alt="imagem do batman" id="">
-
-        <img class="imagens-batman" src="assets/batman4.jpg" alt="imagem do batman" id="">
     </div>
 </main>
 
+<br>
+
+<section class="ultimas-noticias">
+
+    <h2>Últimas notícias</h2>
+
+    <div>
+        <h3>Batman salva idosa em perigo</h3>
+
+        <p>
+            Nesta madrugada 18/02/2026, dona Leodete estava caminhando tranquilamente pelas ruas de Gothan quando foi atacada e gravemente ferida por um grupo de meliantes ainda não identificados a não ser por Marcelo, o qual foi pego e entregue para a justiça por Batman, o meliante atualmente está no Hospital Bruce Wayne em acompanhamento médico após diversas partes do crânio fraturadas pealo herói, já dona Leodete ganhou alta e está vivendo tranquilamente pelas ruas da cidade.
+        </p>
+    </div>
+
+<br>
+
+    <div>
+        <h3>Batman frustra roubo tecnológico no centro</h3>
+
+        <p>
+           Na madrugada desta terça-feira 19/02/2026, moradores do distrito financeiro relataram explosões e movimentação suspeita em um prédio de pesquisa avançada. Segundo a polícia, um grupo criminoso tentava roubar protótipos de drones militares, mas a ação foi interrompida pelo vigilante mascarado. Os suspeitos foram encontrados imobilizados no local, junto a provas do crime, reforçando mais uma vez a atuação silenciosa e eficiente do herói nas ruas.
+        </p>
+    </div>
+
+<br>
+
+    <div>
+        <h3>Bat-sinal reaparece após semana de silêncio</h3>
+
+        <p>
+            Após quase uma semana sem aparições registradas na madrugada dessa quarta-feira 18/02/2026, o famoso símbolo voltou a iluminar o céu de Gotham City durante a noite. A polícia confirmou que o chamado foi feito após um aumento de atividades criminosas em regiões periféricas. A reaparição do sinal trouxe alívio à população, que associa sua presença à redução imediata da criminalidade e à resposta rápida contra ameaças maiores.
+        </p>
+    </div>
+
+<br>
+
+    <div>
+        <h3>Bruce Wayne anuncia investimento em segurança urbana em parceria com o herói Batman</h3>
+
+        <p>
+            Em coletiva realizada nesta manhã 18/02/2026, o empresário apresentou um amplo projeto de modernização da infraestrutura urbana, incluindo iluminação inteligente, sensores de movimento e apoio tecnológico às forças de segurança. Embora não tenha citado diretamente o vigilante de Gotham, Bruce disse ter recebido grande aprovação do herói, não existem evidências sobre tal conversa, porém muitos apontam suspeitas de parcerias passadas entre os dois, já que apresentam visões parecidas sobre a atualidade
+        </p>
+    </div>
+
+</section>
+
 <footer>
+
+<br>
+
     <p>Todos os direitos reservados a Guilherme Goll Figueiró</p>
 </footer>
 
